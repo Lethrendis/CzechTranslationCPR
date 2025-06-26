@@ -1,5 +1,5 @@
 
-# CzechCPR 1.2.34
+# CzechCPR
 
 Czech translation of Cauldron of Plentiful Resources version 1.2.40
 
