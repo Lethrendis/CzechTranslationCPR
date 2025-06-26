@@ -15,8 +15,8 @@
         },
         "AlterSelf": {
             "NaturalWeapons": {
-                "Claws": "Drápy (sečné",
-                "Fangs": "Tesáky (bodné",
+                "Claws": "Drápy (sečné)",
+                "Fangs": "Tesáky (bodné)",
                 "Hooves": "Kopyta (drtivé)",
                 "Select": "Kterou přirozenou zbraň nechat vyrůst?"
             }
@@ -57,15 +57,15 @@
         },
         "Backup": {
             "Daily": "Denně",
-            "Forever": "Vždy",
-            "HalfMonth": "V polovině měsíce",
+            "Forever": "Navždy",
+            "HalfMonth": "Půl měsíce",
             "MissingPack": "Zadané zálohovací kompendium je neplatné! Žádná záloha nebyla vytvořena!",
             "Monthly": "Měsíčně",
-            "OneMonth": "Jednou měsíčnš",
-            "OneWeek": "Jednou týdně",
-            "OneYear": "Jednou ročně",
-            "SixMonths": "Každých šest měsíců",
-            "ThreeMonths": "Každé tři měsíce",
+            "OneMonth": "Jeden měsíc",
+            "OneWeek": "Jeden týden",
+            "OneYear": "Rok",
+            "SixMonths": "Šest měsíců",
+            "ThreeMonths": "Tři měsíce",
             "Weekly": "Týdně"
         },
         "Cleave": {
@@ -211,7 +211,7 @@
         },
         "Cover": {
             "Full": "Plný kryt",
-            "Half": "Ploviční kryt",
+            "Half": "Poloviční kryt",
             "No": "Bez krytu",
             "ThreeQuarters": "Tříčtvrteční kryt",
             "Unknown": "Neznámý kryt"
@@ -294,6 +294,7 @@
             "Distance": {
                 "Label": "Vzdálenost:"
             },
+            "HeaderHint": "Ve výchozím rozsahu jsou dostupné všechny <code>xUtils</code> (např. <code>itemUtils</code>), stejně tak <code>constants</code>, <code>Crosshairs</code>, <code>Summons</code>, <code>Teleport</code> a <code>DialogApp</code>. Pro pomoc při psaní CPR maker navštiv Discord kanál <a href=\"https://discord.com/channels/1089258451949064296/1118332135749734451\">zde</a>.",
             "Identifier": {
                 "Label": "Identifikátor:"
             },
@@ -303,162 +304,163 @@
             "Name": {
                 "Label": "Název:"
             },
-            "NoMacros": {
-                "Content": "Změň toto!"
-            },
             "Pass": {
                 "Label": "Fáze:",
+                "actorCreated": {
+                    "Label": "Aktér vytvořen"
+                },
+                "actorDeleted": {
+                    "Label": "Aktér odstraněn"
+                },
+                "actorEquipped": {
+                    "Label": "Aktér vybaven"
+                },
+                "actorUnequipped": {
+                    "Label": "Aktér odložil"
+                },
                 "applyDamage": {
-                    "Label": "Aplikovat zranění",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Aplikovat zranění"
                 },
                 "attackRollComplete": {
-                    "Label": "Hod na útok dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Hod na útok dokončen"
                 },
                 "bonus": {
-                    "Label": "Bonus",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Bonus"
                 },
                 "combatEnd": {
-                    "Label": "Konec boje",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Konec boje"
                 },
                 "combatStart": {
-                    "Label": "Začátek boje",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Začátek boje"
                 },
                 "context": {
-                    "Label": "Kontext",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Kontext"
                 },
                 "create": {
-                    "Label": "Vytvořit",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Vytvořit"
                 },
                 "created": {
-                    "Label": "Vytvořeno",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Vytvořeno"
                 },
                 "damageRollComplete": {
-                    "Label": "Hod na zranění dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Hod na zranění dokončen"
                 },
                 "dead": {
-                    "Label": "Mrtvý",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Mrtvý"
                 },
                 "deleted": {
-                    "Label": "Smazáno",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Odstraněno"
+                },
+                "equipped": {
+                    "Label": "Vybaveno"
                 },
                 "everyTurn": {
-                    "Label": "Každý tah",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Každý tah"
+                },
+                "long": {
+                    "Label": "Důkladný odpočinek"
+                },
+                "moved": {
+                    "Label": "Se pohnul/a"
+                },
+                "movedNear": {
+                    "Label": "Se pohnul/a blízko"
                 },
                 "post": {
-                    "Label": "Po",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Po"
                 },
                 "postAttackRoll": {
-                    "Label": "Po hodu na útok",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Po hodu na útok"
                 },
                 "preItemRoll": {
-                    "Label": "Před hodem položky",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Před hodem položky"
                 },
                 "preTargeting": {
-                    "Label": "Před zacílením",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Před zacílením"
                 },
                 "preambleComplete": {
-                    "Label": "Úvod dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Úvod dokončen"
                 },
                 "rollFinished": {
-                    "Label": "Hod dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Hod dokončen"
                 },
                 "savesComplete": {
-                    "Label": "Záchranné hody dokončeny",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Záchranné hody dokončeny"
                 },
                 "sceneApplyDamage": {
-                    "Label": "Scéna: Aplikovat zranění",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Scéna: Aplikovat zranění"
                 },
                 "sceneAttackRollComplete": {
-                    "Label": "Scéna: Hod na útok dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Scéna: Hod na útok dokončen"
+                },
+                "sceneBonus": {
+                    "Label": "Scána: bonus"
                 },
                 "sceneDamageRollComplete": {
-                    "Label": "Scéna: Hod na zásah dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Scéna: Hod na zásah dokončen"
+                },
+                "movedScene": {
+                    "Label": "Scéna: Se pohnul/a"
                 },
                 "scenePostAttackRoll": {
-                    "Label": "Scéna: Po hodu na útok",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Scéna: Po hodu na útok"
                 },
                 "scenePreambleComplete": {
-                    "Label": "Scéna: Úvod dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Scéna: Úvod dokončen"
                 },
                 "sceneRollFinished": {
-                    "Label": "Scéna: Hod dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Scéna: Hod dokončen"
+                },
+                "short": {
+                    "Label": "Krátký odpočinek"
                 },
                 "situational": {
-                    "Label": "Situační",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Situační"
                 },
                 "targetApplyDamage": {
-                    "Label": "Cíl: Aplikuje zranění",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Cíl: Aplikuje zranění"
                 },
                 "targetAttackRollComplete": {
-                    "Label": "Cíl: Hod na útok dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Cíl: Hod na útok dokončen"
                 },
                 "targetDamageRollComplete": {
-                    "Label": "Cíl: Hod na zásah dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Cíl: Hod na zásah dokončen"
                 },
                 "targetPostAttackRoll": {
-                    "Label": "Cíl: Hod po útoku",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Cíl: Hod po útoku"
                 },
                 "targetPreItemRoll": {
-                    "Label": "Cíl: Před hodem položky",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Cíl: Před hodem položky"
                 },
                 "targetPreambleComplete": {
-                    "Label": "Cíl: Úvod dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Cíl: Úvod dokončen"
                 },
                 "targetRollFinished": {
-                    "Label": "Cíl: Hod dokončen",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Cíl: Hod dokončen"
                 },
                 "targetSavesComplete": {
-                    "Label": "Cíl: Záchranné hody dokončeny",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Cíl: Záchranné hody dokončeny"
                 },
                 "turnEnd": {
-                    "Label": "Konec tahu",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Konec tahu"
                 },
                 "turnEndNear": {
-                    "Label": "Konec tahu (blízký)",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Konec tahu (blízký)"
                 },
                 "turnStart": {
-                    "Label": "Začátek tahu",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Začátek tahu"
                 },
                 "turnStartNear": {
-                    "Label": "Začátek tahu (blízkého)",
-                    "Tooltip": "Změň toto!"
+                    "Label": "Začátek tahu (blízkého)"
+                                    },
+                "unequipped": {
+                    "Label": "Odloženo"
+                },
+                "sceneDeleted": {
+                    "Label": "Scéna odstraněna"
+                },
+                "sceneCreate": {
+                    "Label": "Scéna vytvořena"
                 }
             },
             "Priority": {
@@ -475,9 +477,9 @@
                 "aura": "Aura",
                 "check": "Ověření",
                 "combat": "Boj",
-                "createItem": "Přoložka vytvořena",
                 "death": "Smrt",
                 "effect": "Efekt",
+                "item": "Položka",
                 "midi-actor": "Aktér Midi-QoL",
                 "midi-item": "Položka Midi-QoL",
                 "movement": "Pohyb",
@@ -542,7 +544,7 @@
             "Cancel": "Zrušit",
             "Chat": "Chat",
             "Check": "Test vlastnosti",
-            "CheckSpelling": "Ověření sesílání",
+            "CheckSpelling": "Kontrola pravopisu",
             "Close": "Zavřít",
             "ConditionResistance": {
                 "Description": "Odolání vůči stavům {condition}, hod na záchranu s Výhodou. 1/true pro všechny záchrany, nebo čárkami oddělený seznam vlastností (např. str,dex).",
@@ -559,7 +561,7 @@
             "Distance": "Vzdálenost",
             "Edit": "Upravit",
             "Failure": "Selhání",
-            "Go": "Jít",
+            "Go": "Jdi!",
             "Import": "Importovat",
             "Max": "Max:",
             "MissingScale": "HAktér nemá nastavenou škálu {scaleName}!",
@@ -596,7 +598,7 @@
             "ConditionAdvantage": "Výhoda stavu",
             "ConditionDisadvantage": "Nevýhoda stavu",
             "ConditionFailure": "Selhání stavu",
-            "ConditionImmunity": "Imunita vůči stavůmu",
+            "ConditionImmunity": "Imunita vůči stavu",
             "CriticalThreshold": "Kritický práh",
             "InvalidTarget": "Neplatný cíl",
             "TemplateEffect": "Šablona {itemName}"
@@ -624,7 +626,7 @@
         "Journal": {
             "Chat": "Zde zobraz návod k použití Kotlíku hojných zdrojů:",
             "Readme": "Přečíst si",
-            "Welcome": "<p>Děkujeme, že používáš tento modul! Pokud najdeš nějaké chyby, prosím, buď vytvoř problém na <a href=\"https://github.com/chrisk123999/chris-premades\">GitHubu</a>, nebo nahlaš chybu na našem <a href=\"https://discord.gg/BumxBcQDrT\">Discordu</a>. Neobtěžuj tposneyho, Zhella, nebo jakékoliv další autory modulů s chybami nebo problémy souvisejícími s tímto modulem!</p><p>Rozšířené informace o modulu včetně aktuálních FAQ, návodu pro začátečníky a informací o funkcích jsou k dispozici na <a href=\"https://github.com/chrisk123999/chris-premades/wiki\">Wiki Kotlíku hojných zdrojů</a>. Wiki poskytuje vysvětlení, obrázky a příklady, které mohou odpovědět na většinu otázek o modulu.</p><hr><a href=\"https://ko-fi.com/chrisk123999\"><img width=\"60%\" src=\"modules/chris-premades/images/chris-kofi.svg\"></a><a href=\"https://ko-fi.com/hi25114\"><img width=\"60%\"  src=\"modules/chris-premades/images/michael-kofi.svg\"></a>"
+            "Welcome": "<p>Děkujeme, že používáš tento modul! Pokud najdeš nějaké chyby, prosíme, buď založ problém na <a href=\"https://github.com/chrisk123999/chris-premades\">GitHubu</a>, nebo nahlaš chybu na našem <a href=\"https://discord.gg/BumxBcQDrT\">Discordu</a>. Neobtěžuj Tima Posneyho, Zhella, ani jakéhokoliv jiného autora modulů s chybami či problémy souvisejícími s tímto modulem!</p><p>Rozšířené informace o modulu včetně aktuálních FAQ, návodu pro začátečníky a informací o funkcích jsou k dispozici na <a href=\"https://github.com/chrisk123999/chris-premades/wiki\">Wiki Kotlíku hojných zdrojů</a>. Wiki poskytuje vysvětlení, obrázky a příklady, které mohou odpovědět na většinu otázek o modulu. </p><hr><a href=\"https://ko-fi.com/chrisk123999\"><img width=\"60%\" src=\"modules/chris-premades/images/chris-kofi.svg\"></a><a href=\"https://ko-fi.com/hi25114\"><img width=\"60%\"  src=\"modules/chris-premades/images/michael-kofi.svg\"></a>"
         },
         "Light": {
             "Bright": "Jasné",
@@ -716,7 +718,7 @@
                 "Healing": "Aura vitality: Léčení"
             },
             "AutoGrapple": {
-                "DC": "Pevné SO pro únik ze sevření (v případě 0 konflikt):",
+                "DC": "Pevné SO pro únik ze sevření (v případě konfliktu je to 0):",
                 "Disadvantage": "Udělit Nevýhodu při hodu na únik:",
                 "Name": "Automatické sevření"
             },
@@ -741,8 +743,8 @@
             },
             "BardicInspiration": {
                 "DC": "Jaké je SO?",
-                "MoteAttack": "Záře Potenciálu – úÚtok",
-                "MoteHeal": "Záře Potenciálu – léčení"
+                "MoteAttack": "Záře potenciálu – útok",
+                "MoteHeal": "Záře potenciálu – léčení"
             },
             "BatteringRoots": {
                 "Mastery": "Jaké mistrovství použít?"
@@ -794,7 +796,7 @@
             "BladeFlourish": {
                 "Defensive": "Obranné máchnutí",
                 "Master": "Použít na máchnutí mečem k6 namísto Bardské inspirace?",
-                "Mobile": "Pohyblivýé máchnutí",
+                "Mobile": "Pohyblivé máchnutí",
                 "Movement": "Máchnutí mečem: Pohyb",
                 "Push": "Odstrčit cíl o {distance} stop?",
                 "Select": "Použít máchnutí mečem?",
@@ -824,7 +826,7 @@
             "BoomingBlade": {
                 "Moved": "Dunivé ostří: Pohyb",
                 "NoWeapons": "Nemáš vybavenou žádnou vhodnou zbraň!",
-                "SelectWeapon": "Kterou zbraň používáš pro seslání tohoto kouzla?",
+                "SelectWeapon": "Jakou zbraň používáš při seslání tohoto kouzla?",
                 "WillingMove": "Pohnul se token {actorName} dobrovolně?"
             },
             "BootsOfElvenkind": {
@@ -1216,7 +1218,7 @@
                 "Bonus": "Ano ({kiCost} čhi / +{bonus} k zásahu)"
             },
             "FormOfDread": {
-                "Fear": "Hrůzná forma hrůzy: Děs",
+                "Fear": "Hrůzná forma: Děs",
                 "Use": "Pokusit se vystrašit cíl?"
             },
             "Gaze": {
@@ -1236,6 +1238,7 @@
                 "Size": "Cíl je příliš velký na to, aby mohl být držen!"
             },
             "Grappler": {
+                "Grapple": "Pokusit se o zápas s {tokenName}?",
                 "Pin": "Zápasník: Připoutání",
                 "Pinned": "Zápasník: Připoután tokenem {tokenName}",
                 "Pinning": "Zápasník: Připoutává token {tokenName}"
@@ -1283,6 +1286,10 @@
             },
             "HailOfThorns": {
                 "Burst": "Krupobití trnů: Výbuch"
+            },
+            "Healer": {
+                "SelectHitDie": "Zvol, jakou kostku obnovy chceš hodit.",
+                "SpellOnly": "Pouze kouzla:"
             },
             "HealingLight": {
                 "Select": "Kolik kostek chceš použít?"
@@ -1627,6 +1634,10 @@
             },
             "PrimalKnowledge": {
                 "ReplacementAbility": "Nahrazovaná vlastnost:"
+            },
+            "Protection": {
+                "Protect": "Zaštítit {tokenName}?",
+                "Protected": "Zaštítění: Zaštítěn"
             },
             "ProtectionFromEvilAndGood": {
                 "Save": "Tato záchrana je proti efektu od démona, elementála, nebešťana, nemrtvého, víly, či zrůdy, co tě zmámila, vystrašila, nebo posedla."
@@ -2320,7 +2331,10 @@
                 }
             },
             "EmbeddedMacros": {
-                "Label": "Makra vložená pomocí CPR"
+                "Delete": "Odstranit vložené makro",
+                "Edit": "Upravit vložená makra",
+                "Invalid": "Neplatné pole '{fieldName}' ve vloženém makru '{macroName}'!",
+                "Label": "Vložená makra"
             },
             "Fieldsets": {
                 "damage": {
@@ -2378,11 +2392,11 @@
                     "AutomationInfo": "Nastavení informací o automatizaci:",
                     "Check": "Ověření:",
                     "Combat": "Boj:",
-                    "CreateItem": "Vytvoření položky:",
                     "Death": "Smrt:",
                     "Equipment": "Vybavení:",
                     "HasAnimation": "Obsahuje animaci:",
                     "Identifier": "Identifikátor:",
+                    "Item": "Položka:",
                     "Label": "Vývojářské nástroje",
                     "MacroInfo": "Nastavení informací o makru:",
                     "MidiActor": "Midi, aktér:",
@@ -2393,14 +2407,17 @@
                     "Save": "Záchrana:",
                     "Skill": "Dovednost:",
                     "Source": "Zdroj:",
-                    "Tooltip": "Vývojářské nástroje – sem by se nemělo lézt...",
+                    "Tooltip": "Vývojářské nástroje, jen pro hodně pokročilé...",
                     "Version": "Verze:"
+                                    },
+                "EmbeddedMacros": {
+                    "Tooltip": "Vytváření maker pomocí systému událostí CPR."
                 },
                 "GenericFeatures": {
                     "Label": "Obecné schopnosti",
                     "Monster": {
                         "Select": {
-                            "Label": "Vybýběr obecnéých schopností nestvůry:",
+                            "Label": "Výběr obecných schopností nestvůry:",
                             "Tooltip": "Přidat nastavitelné obecné schopnosti nestvůry"
                         }
                     },
@@ -2435,11 +2452,12 @@
             "UnableToBeMoved": "Cíl nelze přesunout!"
         },
         "Requirements": {
-            "ScaleAdded": "Sškála {scaleIdentifier} byla přidána k povollání {classIdentifier}!"
+            "MissingClass": "Nastavované povolání/obor {classIdentifier} na tomto aktérovi neexistuje!",
+            "ScaleAdded": "Škála {scaleIdentifier} byla přidána k povolání {classIdentifier}!"
         },
         "Section": {
             "Rage": "Zuřivost",
-            "RingOfSpellStoring": "Prsten uchovávní kouzel",
+            "RingOfSpellStoring": "Prsten uchování kouzel",
             "SpellFeatures": "Parametry kouzel"
         },
         "Senses": {
@@ -2448,57 +2466,57 @@
         "SettingCategory": {
             "backup": {
                 "Hint": "Nastavení zálohování postav.",
-                "Label": "Zálohování postav",
+                "Label": "Nastavit zálohování",
                 "Name": "Zálohování postav"
             },
             "compendium": {
                 "Hint": "Nastavení kompendií.",
-                "Label": "Možnosti kompendií",
+                "Label": "Nastavit kompendia",
                 "Name": "Možnosti kompendií"
             },
             "development": {
                 "Hint": "Nastavení pro vývojáře.",
-                "Label": "Vývojářské možnosti",
+                "Label": "Otevřít vývojářské možnosti",
                 "Name": "Vývojářské možnosti"
             },
             "dialog": {
                 "Hint": "Nastavení dialogových oken.",
-                "Label": "Možnosti dialogů",
+                "Label": "Nastavit dialogy",
                 "Name": "Možnosti dialogů"
             },
             "general": {
                 "Hint": "Nastavení obecných možností.",
-                "Label": "Obecné možnosti",
-                "Name": "Obecné možnosti"
+                "Label": "Nastavit obecné možnosti",
+                "Name": "Nastavení obecných možností"
             },
             "help": {
                 "Hint": "Získej pomoc s tímto modulem.",
-                "Label": "Nápověda",
+                "Label": "Získat nápovědu",
                 "Name": "Nápověda"
             },
             "homebrew": {
                 "Hint": "Nastavení domácích pravidel.",
-                "Label": "Možnosti domácích pravidel",
+                "Label": "Nastavit domácí pravidla",
                 "Name": "Možnosti domácích pravidel"
             },
             "integration": {
                 "Hint": "Nastavení integrace modulů.",
-                "Label": "Integrace modulů",
+                "Label": "Integrovat moduly",
                 "Name": "Integrace modulů"
             },
             "interface": {
                 "Hint": "Nastavení uživatelského rozhraní.",
-                "Label": "Možnosti rozhraní",
+                "Label": "Nastavit rozhraní",
                 "Name": "Možnosti rozhraní"
             },
             "manualRolls": {
                 "Hint": "Nastavení ručních hodů.",
-                "Label": "Ruční hody",
+                "Label": "Nastavit ruční hody",
                 "Name": "Ruční hody"
             },
             "mechanics": {
                 "Hint": "Nastavení herních mechanik.",
-                "Label": "Možnosti herních mechanik",
+                "Label": "Nastavit herní mechaniky",
                 "Name": "Možnosti herních mechanik"
             }
         },
@@ -2525,90 +2543,90 @@
                 "7": "Propojeným postavám a NP",
                 "8": "Nepropojeným postavám a NP",
                 "9": "Všem postavám a NP",
-                "Hint": "Pokud je zapnuto, budou při umístění tokenu přidány generické akce.",
+                "Hint": "Pokud je zapnuto, budou při umístění tokenu na plátno přidány generické akce.",
                 "Name": "Mají být tokenům přidány generické akce?"
             },
             "addCompendiumButton": {
-                "Hint": "Pokud je povoleno, bude do hlaviček kompendií přidáno tlačítko pro zkopírování ID.",
-                "Name": "Tlačítko ID kompendia"
+                "Hint": "Pokud je zaškrtnuto, bude do hlaviček kompendií přidáno tlačítko pro zkopírování ID.",
+                "Name": "Přidat tlačítko ID kompendia?"
             },
             "additionalCompendiums": {
-                "Hint": "Výběr dodatečných kompendií položek, které mají být použiívány Lékárničkou, a úprava jejich priority.",
+                "Hint": "Výběr dodatečných kompendií položek, které mají být vyžívány Lékárničkou, a úprava jejich priority.",
                 "Name": "Dodatečná kompendia"
             },
             "applyConditionChanges": {
-                "Hint": "Pokud je povoleno, budou stavy automaticky doplněny o efekty z Midi-QOL.",
-                "Name": "Použití stavových efektů Midi-QOL"
+                "Hint": "Pokud je zaškrtnuto, budou stavy automaticky doplněny o efekty z Midi-QOL.",
+                "Name": "Používat stavové efekty Midi-QOL?"
             },
             "automatedAnimationSounds": {
-                "Hint": "Pokud je povoleno, budou položky s vypnutou automatickou animací stále přehrávat zvuky nastavené v nabídce Automatického rozpoznání.",
-                "Name": "Automatické animace: Přehrávání zvuků"
+                "Hint": "Pokud je zaškrtnuto, budou položky s vypnutou automatickou animací stále přehrávat zvuky nastavené v nabídce Automatického rozpoznání.",
+                "Name": "Povolit přehrávání zvuků Automatických animací (AA)?"
             },
             "backupCompendium": {
                 "Hint": "Volba kompendia na zálohování aktérů.",
                 "Name": "Kompendium záloh aktérů"
             },
             "backupFrequency": {
-                "Hint": "Jak často mají být prováděny automatické zálohy.",
+                "Hint": "Jak často má být automatické zálohování prováděno.",
                 "Name": "Frekvence zálohování"
             },
             "backupMake": {
-                "Hint": "Okamžitě pomocí zvoleného kompendia vytvoř zálohu.",
+                "Hint": "Okamžitě pomocí zvoleného kompendia vytvoří zálohu.",
                 "Name": "Vytvoření zálohy"
             },
             "backupRetention": {
                 "Hint": "Jak dlouho mají být zálohované postavy uchovány.",
-                "Name": "Doba uchování záloh"
+                "Name": "Jak dlouho uchovávat zálohy?"
             },
             "backupTime": {
                 "Hint": "Čas poslední zálohy (v milisekundách). Nastavuje se automaticky.",
                 "Name": "Čas poslední zálohy"
             },
             "backups": {
-                "Hint": "Pokud je povoleno, budou postavy vlastněné hráči automaticky zálohovány do zvoleného kompendia.",
-                "Name": "Automatické zálohování postav"
+                "Hint": "Pokud je zaškrtnuto, budou postavy vlastněné hráči automaticky zálohovány do zvoleného kompendia.",
+                "Name": "Zálohovat automaticky postavy?"
             },
             "bg3WeaponActionConfig": {
                 "Hint": "Nastaví akce zbraní ve stylu Baldur's Gate 3.",
-                "Name": "Nastavení zbraňových akcí Baldur's Gate 3"
+                "Name": "Nastavit zbraňové akce Baldur's Gate 3?"
             },
             "bg3WeaponActionUses": {
                 "Hint": "Maximální počet použití zbraňových akcí na krátký odpočinek.",
-                "Name": "Použití zbraňových akcí Baldur's Gate 3"
+                "Name": "Počet použití zbraňových akcí Baldur's Gate 3"
             },
             "bg3WeaponActionsEnabled": {
-                "Hint": "Pokud je povoleno, budou aktérům při vybavení zbraní přidány zbraňové akce ve stylu Baldur's Gate 3.",
-                "Name": "Zbraňové akce Baldur's Gate 3"
+                "Hint": "Pokud je zaškrtnuto, budou aktérům při vybavení zbraní přidány zbraňové akce ve stylu Baldur's Gate 3.",
+                "Name": "Přidat zbraňové akce Baldur's Gate 3?"
             },
             "checkForUpdates": {
-                "Hint": "Pokud je povoleno, bude modul po připojení PJ jednou denně kontrolovat aktualizace.",
-                "Name": "Kontrola aktualizací"
+                "Hint": "Pokud je zaškrtnuto, bude modul po připojení PJ jednou denně kontrolovat aktualizace.",
+                "Name": "Mají se kontrolovat aktualizace?"
             },
             "classSpellList": {
-                "Hint": "Zápisník se všemi nastavenými seznamy kouzel podle povolání.",
-                "Name": "Zápisník se seznamem kouzel povolání"
+                "Hint": "Záznamník se všemi nastavenými seznamy kouzel podle povolání.",
+                "Name": "Nastavení záznamníku se seznamem kouzel povolání"
             },
             "cleave": {
                 "1": "Povoleno (libovolné zdraví)",
                 "2": "Povoleno (pouze plné zdraví)",
                 "Hint": "Povolí mechaniku rozmachu (cleave) z Průvodce Pána jeskyně",
-                "Name": "DMG: Rozmach"
+                "Name": "Povolit rozmach z DMG?"
             },
             "colorizeAutomatedAnimations": {
-                "Hint": "Pokud je povoleno, bude ikona automatických animací na titulní liště bude obarvena podle stavu nastavení.",
-                "Name": "Automatické animace (AA): Obarvení ikony"
+                "Hint": "Pokud je zaškrtnuto, bude ikona AA na titulní liště obarvena podle stavu nastavení.",
+                "Name": "Obarvovat ikony Automatických animací (AA)?"
             },
             "colorizeDAE": {
-                "Hint": "Pokud je povoleno a položka má efekt, bude ikona DAE na titulní liště obarvena.",
-                "Name": "Dynamické aktivní efekty (DAE): Obarvení ikony"
+                "Hint": "Pokud je zaškrtnuto a položka má efekt, bude ikona DAE na titulní liště obarvena.",
+                "Name": "Obarvovat ikony Dynamických aktivních efektů (DAE)?"
             },
             "conditionResistanceAndVulnerability": {
-                "Hint": "Povolí automatizace odolnání a zranitelnosti vůči stavům.",
-                "Name": "Odolání a zranitelnost vůči stavům"
+                "Hint": "Povolí automatizace odolání a zranitelnosti vůči stavům.",
+                "Name": "Povolit automatizace odolání a zranitelnosti vůči stavům?"
             },
             "criticalCompendium": {
-                "Hint": "Můžeš vybrat své kompendium kritů.",
-                "Name": "Kompendium kritů"
+                "Hint": "Můžeš vybrat své kompendium kritických úspěchů.",
+                "Name": "Kompendium kritických úspěchů"
             },
             "criticalFumbleMode": {
                 "1": "Náhodně",
@@ -2617,7 +2635,7 @@
                 "4": "Vybrané – pouze kritické úspěchy",
                 "5": "Náhodně – pouze kritická selhání",
                 "6": "Vybrané – pouze kritická selhání",
-                "Hint": "Pokud je povoleno, budou při kritickém zásahu či selhání hodem přidány položky z vybraných kompendií.",
+                "Hint": "Pokud je zaškrtnuto, budou při kritickém zásahu či selhání hodem přidány položky z vybraných kompendií.",
                 "Name": "Režim kritických zásahů a selhání"
             },
             "devTools": {
@@ -2625,55 +2643,55 @@
                 "Name": "Mají být zobrazeny vývojářské nástroje?"
             },
             "diceSoNice": {
-                "Hint": "Pokud je povoleno, budou animace hodů za zásah Dice So Nice zpožděny až po dokončení všech makro hodů na zásah.",
-                "Name": "Dice So Nice: Hody za zásah"
+                "Hint": "Pokud je zaškrtnuto, budou animace hodů za zásah DSN zpožděny až po dokončení všech makro hodů na zásah.",
+                "Name": "Zpožďovat hody za zásah Dice So Nice (DSN)?"
             },
             "disableNonConditionStatusEffects": {
-                "Hint": "Pokud je povoleno, budou všechny jádrové stavové efekty, které nejsou stavy, odstraněny.",
+                "Hint": "Pokud je zaškrtnuto, budou všechny jádrové stavové efekty, které nejsou stavy, odstraněny.",
                 "Name": "Zakázat nestavové efekty?"
             },
             "disableSpecialEffects": {
-                "Hint": "Pokud je povoleno, nebudou stavy jako ´oslepený/á´ či ´neviditelný/á´ aplikovat vizuální efekty.",
+                "Hint": "Pokud je zaškrtnuto, nebudou stavy jako ´oslepený/á´ či ´neviditelný/á´ aplikovat vizuální efekty.",
                 "Name": "Zakázat speciální efekty?"
             },
             "displayNestedConditions": {
-                "Hint": "Pokud je povoleno, budou viditelné implicitní stavové efekty. Například ´paralyzovaný/á´ také viditelně přidá stav ´zneschopnněný/á´.",
+                "Hint": "Pokud je zaškrtnuto, budou viditelné implicitní stavové efekty. Například ´paralyzovaný/á´ také viditelně přidá stav ´zneschopněný/á´.",
                 "Name": "Mají se zobrazovat implicitní stavy?"
             },
             "effectDescriptionNPC": {
-                "Hint": "Pokud je povoleno, tak se nastavení Automatického popisu efektu nebude vztahovat na efekty vytvořené pro NP.",
+                "Hint": "Pokud je zaškrtnuto, tak se nastavení automatických popisů efektu nebude vztahovat na efekty vytvořené pro NP.",
                 "Name": "Mají být skrývané popisy efektů NP?"
             },
             "effectDescriptions": {
-                "Hint": "Pokud je povoleno, budou efekty bez popisu automaticky doplněny z původní položky",
-                "Name": "Automatické popisy efektů"
+                "Hint": "Pokud je zaškrtnuto, budou efekty bez popisu automaticky doplněny z původní položky.",
+                "Name": "Doplňovat automatické popisy efektů?"
             },
             "effectInterface": {
-                "Hint": "Přidá pro aktivní efekty postranní záložku. Po povolení bude vyžadováno znovunačtení světa.",
-                "Name": "Povolit rozhraní efektů"
+                "Hint": "Přidá postranní záložku aktivních efektů. Po zaškrtnutí bude vyžadováno znovunačtení světa.",
+                "Name": "Povolit rozhraní efektů?"
             },
             "enableEmbeddedMacrosEditing": {
-                "Hint": "Pokud je povoleno, bude dostupný editor vložených maker. (Není připraveno k použití!)",
+                "Hint": "Pokud je zaškrtnuto, bude dostupný editor vložených maker. (Není připraveno k použití!)",
                 "Name": "Povolit úpravy vložených maker?"
             },
             "epicRolls": {
-                "Hint": "Pokud je povoleno, budou některá makra používat Epic Rolls, kdykoli to bude možné.",
-                "Name": "Povolit Epic Rolls?"
+                "Hint": "Pokud je zaškrtnuto, budou některá makra používat Epic Rolls, kdykoli to bude možné.",
+                "Name": "Povolit Epic Rolls (ER)?"
             },
             "explodingHeals": {
-                "Hint": "Pokud je povoleno, všechny vzorce pro léčení se automaticky upraví tak, aby mohly „explodovat“.",
-                "Name": "Explodující léčení"
+                "Hint": "Pokud je zaškrtnuto, všechny vzorce pro léčení se automaticky upraví tak, aby mohly „explodovat“.",
+                "Name": "Povolit explodující léčení?"
             },
             "exportForSharing": {
-                "Hint": "Pokud je povoleno, bude do kontextové nabídky položek a aktérů přidáno alternativní tlačítko esportu, které exportuje položku bez popisů. Vyžaduje znovunačtení světa.",
-                "Name": "Export pro sdílení"
+                "Hint": "Pokud je zaškrtnuto, bude do kontextové nabídky položek a aktérů přidáno alternativní tlačítko exportu, které exportuje položku bez popisů. Vyžaduje znovunačtení světa.",
+                "Name": "Tlačítko exportu pro sdílení?"
             },
             "firearmSupport": {
-                "Hint": "Pokud je povoleno, bude dostupná automatizace střelných zbraní (z třídy Pistolník od Critical Role).",
-                "Name": "Podpora střelných zbraní"
+                "Hint": "Pokud je zaškrtnuto, bude dostupná automatizace střelných zbraní (povolání Pistolník od Critical Role).",
+                "Name": "Povolit podporu střelných zbraní?"
             },
             "fumbleCompendium": {
-                "Hint": "Vyber své kompendium kritických selhání.",
+                "Hint": "Můžeš vybrat své kompendium kritických selhání.",
                 "Name": "Kompendium kritických selhání"
             },
             "gambitPremades": {
@@ -2689,8 +2707,8 @@
                 "Name": "Uživatelské ID Pána jeskyně"
             },
             "groupSummonsWithOwner": {
-                "Hint": "Pokud je povoleno, budou ve sledovači boje vyvolané bytosti vytvořené pomocí API CPR seskupeny, pokud mají stejnou iniciativu.",
-                "Name": "Seskupit vyvolání s vlastníkem?"
+                "Hint": "Pokud je zaškrtnuto, budou ve sledovači boje vyvolané bytosti vytvořené pomocí API CPR seskupeny, pokud mají stejnou iniciativu.",
+                "Name": "Seskupit vyvolané tokeny s vlastníkem?"
             },
             "hiddenCompendiumFolders": {
                 "Hint": "Vybrané složky kompendií budou skryté.",
@@ -2701,7 +2719,7 @@
                 "Name": "Skrýt kompendia?"
             },
             "hideNames": {
-                "Hint": "Mají být jména nepřátel skryta v dialozích.",
+                "Hint": "Zda mají být jména nepřátel skryta v dialozích.",
                 "Name": "Skrývat jména?"
             },
             "itemCompendium": {
@@ -2709,19 +2727,19 @@
                 "Name": "Kompendium položek"
             },
             "itemContext": {
-                "Hint": "Pokud je povoleno, bude mít nabídka kontextu položky další možnosti (Odeslat, Zkondenzovatt, Rozdělit).",
-                "Name": "Dodatečné kontextové možnosti položek"
+                "Hint": "Pokud je zaškrtnuto, bude mít nabídka kontextu položky další možnosti (Odeslat, Zkondenzovat, Rozdělit).",
+                "Name": "Přidat dodatečné kontextové možnosti položek?"
             },
             "lastUpdateCheck": {
                 "Hint": "Kdy proběhla poslední kontrola aktualizací (v milisekundách). Nastavuje se automaticky.",
                 "Name": "Kdy proběhla poslední kontrola aktualizací?"
             },
             "macroCompendium": {
-                "Hint": "Kompendium maker používaných k přepsání či doplnění maker v API CPR. Jak používat najdeš v dokumentaci. (Vývoj probíhá)",
+                "Hint": "Kompendium maker používaných k přepsání či doplnění maker v API CPR. Jak používat, najdeš v dokumentaci. (Vývoj probíhá)",
                 "Name": "Kompendium maker"
             },
             "macroInterface": {
-                "Hint": "Přidá postranní záložku maker. Po povolení je vyžadováno znovunačtení světa.",
+                "Hint": "Přidá postranní záložku maker. Po zaškrtnutí je vyžadováno znovunačtení světa.",
                 "Name": "Povolit rozhraní maker?"
             },
             "makeGM": {
@@ -2729,35 +2747,39 @@
                 "Name": "Stát se PJ?"
             },
             "manualRollsEnabled": {
-                "Hint": "Povolit řešitel hodů CPR pro nevyplněné hody.",
+                "Hint": "Povolí řešitele hodů CPR pro nevyplněné hody.",
                 "Name": "Používat ruční hody?"
             },
             "manualRollsGMFulfils": {
-                "Hint": "Pokud je povoleno, bude všechny hody vyhodnocovat Pán jeskyně.",
-                "Name": "Má J vyhodnocovat všechny hody?"
+                "Hint": "Pokud je zaškrtnuto, bude všechny hody vyhodnocovat Pán jeskyně.",
+                "Name": "Má PJ vyhodnocovat všechny hody?"
             },
             "manualRollsInclusion": {
-                "0": "Žádné – žádné ruční hody",
-                "1": "Vše – dotaz pro jakéhokoli herce",
+                "0": "Žádné ruční hody",
+                "1": "Vždy se dotazovat u jakéhokoli aktéra",
                 "2": "Pouze všichni hráči",
                 "3": "Pouze všechny propojené",
                 "4": "Pouze propojené ve vlastnictví hráčů",
                 "5": "Vše ve vlastnictví a pod kontrolou hráčů",
                 "Hint": "Pro které aktéry má být vyžadováno potvrzení hodu.",
-                "Name": "Zahrnutí ručních hodů"
+                "Name": "Zahrnovat ruční hody?"
             },
             "manualRollsPromptNoData": {
-                "Hint": "Zda se má zobrazovat výzva k hodu bez dat, pravděpodobně používaných makry.",
-                "Name": "Výzva při absenci dat"
+                "Hint": "Zda se má zobrazovat výzva k hodu bez dat pravděpodobně používaných makry.",
+                "Name": "Zobrazovat výzvu při absenci dat?"
             },
             "manualRollsPromptOnMiss": {
                 "Hint": "Zda se má zobrazovat výzva k hodu na zásah i při selhání útoku.",
-                "Name": "Výzva při selhání útoku"
+                "Name": "Zobrazovat výzvu při neúspěšném útoku?"
             },
             "manualRollsUsers": {
                 "Hint": "Nastaví, kteří uživatelé používají ruční hody.",
                 "Name": "Uživatelé ručních hodů"
-            },
+            },            
+            "matchSummonElevation": {
+                "Hint": "Pokud je zaškrtnuto, pak budou tokeny přivolávané pomocí CPR vytvářeny ve stejné výšce jako token přivolávače.",
+                "Name": "Mají přivolaní odpovídat výšce přivolávače?"
+            },         
             "migrationVersion": {
                 "Hint": "Verze migrace",
                 "Name": "Verze migrace"
@@ -2784,26 +2806,26 @@
             },
             "permissionsAutomateItem": {
                 "Hint": "Nejnižší úroveň oprávnění uživatele, která smí pomocí Lékáničky vybírat a aplikovat různé automatizace:",
-                "Name": "Oprávnění pro aplikaci automatizací Lékárničkou"
+                "Name": "Oprávnění pro aplikace automatizací Lékárničkou"
             },
             "permissionsConfigureHomebrew": {
                 "Hint": "Nejnižší úroveň oprávnění uživatele, která smí pomocí Lékáničky nastavovat domácí pravidla:",
-                "Name": "Oprávnění pro nastacvení domácích pravidel Lékárničkou"
+                "Name": "Oprávnění pro nastavení domácích pravidel Lékárničkou"
             },
             "permissionsConfigureItem": {
                 "Hint": "Nejnižší úroveň oprávnění uživatele, která smí nastavovat automatizace pomocí Lékárničky:",
-                "Name": "Oprávnění nastavování Lékárničkou"
+                "Name": "Oprávnění pro nastavování automatizací Lékárničkou"
             },
             "permissionsUpdateItem": {
                 "Hint": "Nejnižší úroveň oprávnění uživatele, která smí aktualizovat aktuálně vybranou automatizaci Lékárničkou:",
                 "Name": "Oprávnění pro aktualizaci automatizací Lékárničkou"
             },
             "playerSelectsConjures": {
-                "Hint": "Při sesílání kouzel „Vyvolej X“ může hráč (ne PJ) vybrat, jaké bytosti budou vyvolány.",
+                "Hint": "Při sesílání kouzel „Vyvolej X“ může hráč (nikoliv PJ) vybrat, jaké bytosti budou vyvolány.",
                 "Name": "Může hráč vybírat vyvolané bytosti?"
             },
             "replaceStatusEffectIcons": {
-                "Hint": "Pokud je povoleno, budou ikony stavových efektů nahrazeny.",
+                "Hint": "Pokud je zaškrtnuto, budou ikony stavových efektů nahrazeny.",
                 "Name": "Nahradit ikony stavů?"
             },
             "seenTour": {
@@ -2811,52 +2833,52 @@
                 "Name": "Výzva průvodce"
             },
             "selectTool": {
-                "Hint": "Pokud je povoleno, bude nástroj výběru dostupný na více místech. Po povolení je třeba znovunačtení světa.",
-                "Name": "Nástroj výběru všude"
+                "Hint": "Pokud je zaškrtnuto, bude nástroj výběru dostupný na více místech. Po zaškrtnutí je třeba znovunačtení světa.",
+                "Name": "Má být nástroj výběru všude?"
             },
             "spellCompendium": {
                 "Hint": "Kompendium kouzel používaných pro určitou automatizaci. Ideálně by mělo odkazovat na kompendium z D&D Beyond.",
                 "Name": "Kompendium kouzel"
             },
             "spotlightOmnisearchSummons": {
-                "Hint": "Povolí vyvolávání nestvůr z kompendia pomocí Spotlight Omnisearch. Po povolení je třeba znovunačtení světa.",
-                "Name": "Vyvolávat pomocí Spotlight Omnisearch?"
+                "Hint": "Povolí vyvolávání nestvůr z kompendia pomocí Spotlight Omnisearch. Po zaškrtnutí je třeba znovunačtení světa.",
+                "Name": "Vyvolávat pomocí Spotlight Omnisearch (SO)?"
             },
             "statusEffectIcons": {
                 "Hint": "Nastaví obrázky ikon stavových efektů.",
                 "Name": "Nastavit ikony stavových efektů?"
             },
             "syncActorSizeToTokens": {
-                "Hint": "Pokud je povoleno, změní efekty měnící velikost aktéra také velikost tokenu na plátně.",
-                "Name": "Synchronizace velikosti aktéra a tokenu"
+                "Hint": "Pokud je zaškrtnuto, změní efekty měnící velikost aktéra také velikost tokenu na plátně.",
+                "Name": "Synchronizovat velikosti aktéra a tokenu?"
             },
             "temporaryEffectHud": {
                 "Hint": "Přidá do HUDu tokenu dočasné efekty.",
-                "Name": "HUD dočasných efektů"
+                "Name": "Přidat do HUDu dočasné efektůy?"
             },
             "thirdParty": {
-                "Hint": "Pokud je povoleno, bude Lékárnička zahrnovat i automatizace domácíh pravidel.",
-                "Name": "Obsah třetích stran"
+                "Hint": "Pokud je zaškrtnuto, bude Lékárnička zahrnovat i automatizace domácích pravidel.",
+                "Name": "Využívat obsah třetích stran?"
             },
             "updateCompanionInitiative": {
                 "Hint": "Automaticky při hodu nastaví iniciativu společníka těsně za iniciativu hráče.",
-                "Name": "Aktualizace iniciativy společníků"
+                "Name": "Aktualizovat iniciativy společníků?"
             },
             "updateSummonInitiative": {
                 "Hint": "Automaticky při hodu nastaví iniciativu vyvolané bytosti těsně za iniciativu hráče.",
-                "Name": "Aktualizace iniciativy vyvolané bytosti"
+                "Name": "Aktualizovat iniciativy vyvolaných bytostí?"
             },
             "useLocalCompendiums": {
                 "Hint": "Zda používat lokální kompendia světa namísto těch z modulu pro vyhledávání položek.",
                 "Name": "Používat lokální kompendia?"
             },
             "vaeButtons": {
-                "Hint": "Po povolení přidají některá makra tlačítka do rozhraní VAE.",
-                "Name": "Tlačítka Visual Active Effects"
+                "Hint": "Pokud je zaškrtnuto, přidají některá makra tlačítka do rozhraní VAE.",
+                "Name": "Přidat tlačítka Visual Active Effects (VAE)?"
             },
             "weaponMastery": {
                 "Hint": "Povolí automatizaci zbraňových mistrovství podle PhB 2024.",
-                "Name": "Automatizace mistrovství se zbraněmi"
+                "Name": "Automatizovat mistrovství se zbraněmi?"
             }
         },
         "SkillCheck": {
@@ -3034,7 +3056,7 @@
                 "Title": "Záznamník popisů"
             },
             "9": {
-                "Content": "Například kouzlo \"Dragon's Breath\" vytvoří dočasnou schopnost \"Dragon Breath\" u cílového aktéra.\nVyplnění této stránky v záznamníku doplní popis, když bude vytvořen.",
+                "Content": "Například kouzlo \"Dragon's Breath\" vytvoří u aktéra dočasnou schopnost \"Dragon Breath\".\nVyplnění této stránky v záznamníku doplní popis, když bude vytvořen.",
                 "Title": "Záznamník popisů"
             },
             "Chat": "<hr>Zde si udělej prohlídku používáním Cauldron of Plentiful Resources:<br><button type=\"button\">Spustit prohlídku</button>",
@@ -3048,7 +3070,7 @@
             "CopyToClipboard": "Zkopírovat do schránky",
             "DisabledModule": "Modul Cauldron of Plentiful Resources vyžaduje, aby byl modul {module} aktivní!",
             "Discord": "Otevřít kanál podpory na Discordu",
-            "Hint": "Otevře nástroj pro řešení problémů.",
+            "Hint": "Otevře Řešitel problémů.",
             "MissingModule": "Modul Cauldron of Plentiful Resources vyžaduje, aby byl modul {module} nainstalován!",
             "MovementLag": "Zpracování pohybu trvá příliš dlouho! Zkus snížit hodnotu \"Přesnost událostí pohybu\" v obecných nastaveních CPR.",
             "Open": "Otevřít nástroj pro řešení problémů:",
